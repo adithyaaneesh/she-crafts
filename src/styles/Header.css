@@ -1,0 +1,37 @@
+
+nav {
+    position: static;
+    min-height: 50px;
+    background-color:var(--primary--color);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+.headnav {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item ul {
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.menu-item ul li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    color: var(--primary--text-color)
+    
+}
+.btn-cart > button {
+    color: var(--primary--text-color);
+    /* background-color: var(--primary--color); */
+    background-color: transparent;
+    border: 1px solid #a65798;
+    padding: 10px;
+    max-width:90px;
+    border-radius: 25%;
+}
