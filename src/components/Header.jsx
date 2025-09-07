@@ -8,6 +8,7 @@ const Header = () => {
         <div className='container'>
             <nav className='headnav'>
                 <div>
+                    {/* <img src='public/images/yarnlogo.png'/> */}
                     <h3>She-Crafts</h3>
                 </div>
                 <div className='menu-item'>
@@ -19,7 +20,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className='btn-cart'>
-                    <button>Cart</button>
+                    <button><a href='#'>Cart</a></button>
                 </div>
             </nav>
             

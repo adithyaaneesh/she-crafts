@@ -42,9 +42,15 @@
   max-width: 1300px;
 }
 :root {
-  --primary--color:#e8bfe0;
+  --primary--color:#b87bac;
   /* --primary--text-color:#903080; */
   --primary--text-color:#48083e;
+}
+:root {
+  --primary--background-color:#e8badf;
+  --primary--texthead-color:#48083e;
+  --primary--text-color:#45103c;
+  /* --primary--light-background:#9b6d92; */
 }
 * {
   margin: 0;

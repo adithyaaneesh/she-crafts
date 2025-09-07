@@ -1,8 +1,10 @@
-
+header {
+    background-color:var(--primary--color);
+}
 nav {
     position: static;
     min-height: 50px;
-    background-color:var(--primary--color);
+    /* background-color:var(--primary--color); */
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -11,6 +13,10 @@ nav {
 .headnav {
     display: flex;
     justify-content: space-between;
+}
+.headnav h3 {
+        color: var(--primary--texthead-color);
+
 }
 .menu-item ul {
     display: flex;
@@ -26,11 +32,15 @@ ul li a {
     color: var(--primary--text-color)
     
 }
+.btn-cart a {
+    text-decoration: none;
+    color:var(--primary--text-color);
+}
 .btn-cart > button {
     color: var(--primary--text-color);
     /* background-color: var(--primary--color); */
     background-color: transparent;
-    border: 1px solid #a65798;
+    border: 1px solid #4d1142;
     padding: 10px;
     max-width:90px;
     border-radius: 25%;
