@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/Header.css'
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import GestureIcon from '@mui/icons-material/Gesture';
 
 const Header = () => {
 
@@ -8,8 +10,7 @@ const Header = () => {
         <div className='container'>
             <nav className='headnav'>
                 <div>
-                    {/* <img src='public/images/yarnlogo.png'/> */}
-                    <h3>She-Crafts</h3>
+                    <h3><GestureIcon/>She-Crafts</h3>
                 </div>
                 <div className='menu-item'>
                     <ul>
@@ -20,7 +21,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className='btn-cart'>
-                    <button><a href='#'>Cart</a></button>
+                    <button><a href='#'><ShoppingCartIcon/></a></button>
                 </div>
             </nav>
             
