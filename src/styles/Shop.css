@@ -1,0 +1,28 @@
+.shop {
+    background-color: var(--primary--background-color);
+    min-height: 300px;
+    margin-top: 3px;
+}
+.btn-bar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-height: 40px;
+    padding-top: 20px;
+    border-radius: 12px;
+    color: black;
+}
+.btn-bar > button {
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 5px;
+    width: 150px;
+}
+.btn-bar > button:hover {
+    font-size: large;
+    text-transform: uppercase;
+}
+.btn-bar > button a {
+    text-decoration: none;
+    color: var(--primary--text-color);
+}
